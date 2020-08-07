@@ -2,10 +2,10 @@
   "store.home": { 
     "blocks": [
       "rich-text",
-      "info-card#button-left"
+      "info-card#link-left"
     ]
   },
-  "info-card#button-left": {
+  "info-card#link-left": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
