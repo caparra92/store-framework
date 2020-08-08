@@ -55,13 +55,19 @@
     ]
   },
   "sku-selector": {
-
+    "props":{
+      "hideImpossibleCombinations": false
+    }
   },
   "product-quantity": {
-
+    "props": {
+      "warningQuantityThreshold": 9999999
+    }
   },
   "shipping-simulator": {
-
+    "props": {
+      "skuID": "342"
+    }
   },
   "buy-button": {
     "props": {
