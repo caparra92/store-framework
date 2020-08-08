@@ -54,6 +54,9 @@
       "shipping-simulator"
     ]
   },
+  "shipping-simulator": {
+
+  },
   "buy-button": {
     "props": {
       "isOneClickBuy": true,
