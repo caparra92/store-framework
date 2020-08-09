@@ -1,5 +1,8 @@
 {
-  "menu-item#major-appliances": { 
+  "menu-item#major-appliances": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#major"
+    ],
     "props": {
       "orientation": "vertical",
       "type": "custom",
