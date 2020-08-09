@@ -1,0 +1,23 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner", 
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://yt3.ggpht.com/tninvL7S5CsFjNu5dskYCtA3SZqV3oL6bI7BhYU0FEwZxLs74yA1Jc2r7lEGEsDhC2YZE4AnP9Q=w1060-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+            "minWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props":{
+            "querySchema": {
+                "maxItemsPerPage": 8,
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true
+            }
+        }
+    }
+}
