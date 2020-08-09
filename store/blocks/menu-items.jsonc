@@ -1,13 +1,5 @@
 {
-  "menu-item#major-appliances": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#major"
-    ],
-    "children": [
-      "menu-item#refrigerators",
-      "menu-item#ovens",
-      "menu-item#washers"
-    ],  
+  "menu-item#major-appliances": { 
     "props": {
       "orientation": "vertical",
       "type": "custom",
@@ -18,14 +10,6 @@
     }
   },
   "menu-item#small-appliances": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#small"
-    ],
-    "children":[
-      "menu-item#mixers",
-      "menu-item#toasters",
-      "menu-item#coffee"
-    ],
       "props":
     {
       "orientation": "vertical",
@@ -38,14 +22,6 @@
     }
   },
   "menu-item#electronics": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#electronics"
-    ],
-    "children":[
-      "menu-item#cameras",
-      "menu-item#laptops",
-      "menu-item#tvs"
-    ],
       "props":
     {
       "orientation": "vertical",
