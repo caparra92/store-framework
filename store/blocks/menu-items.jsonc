@@ -1,6 +1,12 @@
 {
   "menu-item#major-appliances": {
-      "props": {
+    "children": [
+      "menu-item#refrigerators",
+      "menu-item#ovens",
+      "menu-item#washers"
+    ],  
+    "props": {
+      "orientation": "vertical",
       "type": "custom",
       "highlight": true,
       "itemProps": {
@@ -9,8 +15,14 @@
     }
   },
   "menu-item#small-appliances": {
+    "children":[
+      "menu-item#mixers",
+      "menu-item#toasters",
+      "menu-item#coffee"
+    ],
       "props":
     {
+      "orientation": "vertical",
       "type": "category",
       "highlight": true,
       "itemProps": {
@@ -20,8 +32,14 @@
     }
   },
   "menu-item#electronics": {
+    "children":[
+      "menu-item#cameras",
+      "menu-item#laptops",
+      "menu-item#tvs"
+    ],
       "props":
     {
+      "orientation": "vertical",
       "type": "category",
       "highlight": true,
       "itemProps": {
